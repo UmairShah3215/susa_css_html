@@ -1,0 +1,396 @@
+header {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    /* position: relative; */
+}
+
+header .header_top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+header .header_top .logo {
+    width: 4%;
+}
+
+header .header_top .numbers {
+    font-size: 30px;
+}
+
+header .header_top .numbers span {
+    display: block;
+    text-align: center;
+}
+
+header .header_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header_bottom .header_content {
+    position: relative;
+    left: 17%;
+}
+
+header .header_bottom .header_content h1 {
+    font-size: 93px;
+    color: #F2C71A;
+    line-height: 0.8;
+}
+
+header .header_bottom .header_content p {
+    font-size: 43px;
+    color: #fff;
+    width: 500px;
+    line-height: 1.3;
+}
+
+header .header_bottom .header_nav ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+}
+
+header .header_bottom .header_nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+header .header_bottom .header_nav ul li::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background: #3d4e4d;
+    z-index: -1;
+    opacity: 0;
+    transition: all ease-out 0.3s;
+}
+
+header .header_bottom .header_nav ul li::after,
+header .header_bottom .header_nav ul li:hover {
+    background-color: #3d4e4d;
+    transition: all ease-out 0.3s;
+}
+
+header .herder_anywhere {
+    border-right: 1px solid #fff;
+    width: 140px;
+    height: 140px;
+}
+
+header .herder_anywhere p {
+    font-size: 23px;
+    color: #F2C71A;
+    padding-top: 30px;
+}
+
+.section1 .asection {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section1 .head {
+    font-size: 30px;
+    color: gray;
+}
+
+.section1 .pera {
+    font-size: 30px;
+    width: 1000px;
+    line-height: 1.4;
+    color: #F2C71A;
+}
+
+.section1 .pera1 {
+    font-size: 18px;
+    color: #F2C71A;
+    font-weight: 600;
+}
+
+.section1 .border_bottom {
+    border-bottom: 1px solid #D7DACB;
+    padding-bottom: 100px;
+}
+
+
+.section2 {
+    background-color: #3D4E4D;
+    position: relative;
+    padding: 50px;
+}
+
+.section2 p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.section2 .borderd {
+    border: 1px solid #F2C71A;
+    width: 38px;
+    height: 35px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-plus {
+    color: #F2C71A;
+    font-size: 22px;
+    margin-left: 7.8px;
+    margin-top: 4.5px;
+
+}
+
+.section3 .asection,
+.section4 .asection,
+.section7 .asection {
+    font-weight: 500;
+}
+
+.section3 .inner_team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3 .team_content {
+    width: 25%;
+    position: relative;
+    left: 20%;
+}
+
+.section3 .team_content h2,
+.section3 .team_content1 h2 {
+    color: #3d4e4d;
+    font-weight: 200;
+    margin: 120px 0 60px 0;
+}
+
+.section3 .team_content p,
+.section3 .team_content1 p {
+    font-weight: 200;
+    line-height: 1.750em;
+    padding: 0 0 2em 0;
+    color: #3d4e4d;
+}
+
+.fa-brands {
+    font-size: 30px;
+
+}
+
+.section3 ul {
+    display: flex;
+    gap: 20px;
+}
+
+.section3 ul li a {
+    color: #D0D4D2;
+}
+
+.section3 ul li a:hover {
+    color: #3D4E4D;
+    transition: 0.5s;
+}
+
+.section3 .team_image {
+    width: 50%;
+}
+
+.section3 .inner_team1 {
+    display: flex;
+}
+
+.section3 .team_content1 {
+    width: 25%;
+    position: relative;
+    left: 7%;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.section4 h2,
+.section4 p {
+    color: #3D4E4D;
+}
+
+
+.section4 h3 {
+    color: #3D4E4D;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section5 h2 {
+    color: #3D4E4D;
+    font-size: 40px;
+}
+
+.section5 p {
+    color: #3D4E4D;
+    width: 500px;
+}
+
+.section5 h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.section6 {
+    background-image: url("../images/manifest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0009;
+    padding: 200px;
+}
+
+.section6 h2 {
+    color: #F2C71A;
+    font-size: 40px;
+    /* position: relative;
+    top: 30%; */
+}
+
+.section7 {
+    padding: 50px;
+}
+
+.section8 {
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+
+.section8 h2 {
+    color: #F2C71A;
+    font-size: 45px;
+}
+
+.section8 h3 {
+    color: #fff;
+}
+
+.section8 p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section8 .content {
+    position: relative;
+    top: 80px;
+    left: 0;
+    transform: translate(-50, -50);
+}
+
+.section9 h2,
+.section10 h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #3D4E4D;
+}
+
+.section9 p {
+    color: #3D4E4D;
+    width: 500px;
+}
+
+.card {
+    border: none;
+}
+
+.card img:hover {
+    border: 10px solid #F2C71A;
+    transition: 0.5s;
+}
+
+.section10 p {
+    width: 500px;
+    color: #3D4E4D;
+}
+
+.section10 h2 {
+    color: #3D4E4D;
+}
+
+.section10 h3 {
+    font-size: 20px;
+    color: #3D4E4D;
+    font-weight: 700;
+}
+
+.section10 h3:hover {
+    color: #F2C71A;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #3D4E4D;
+    height: 700px;
+}
+
+footer .asection {
+    font-weight: 500;
+    color: #fff;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    color: #D0D4D2;
+}
+
+footer .icon {
+    border: 1px solid #F2C71A;
+    border-radius: 100%;
+    width: 46px;
+}
+
+footer .icon .fa-plus {
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+footer .name h2 {
+    color: #F2C71A;
+    font-size: 25px;
+}
+
+footer .twitter {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+footer .icons_main {
+    display: flex;
+    gap: 100px;
+}
+
+footer .footer_add {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
